@@ -1,13 +1,3 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/uniflow-logo.png",
-      "dest": "/uniflow-logo.png"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
+  "framework": "nextjs"
 }
