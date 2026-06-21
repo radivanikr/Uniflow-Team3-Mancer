@@ -70,7 +70,10 @@ export default function Home() {
             <a href={xUrl} target="_blank" rel="noreferrer">X / Twitter</a>
           </div>
 
-          <a href={tallyUrl} target="_blank" rel="noreferrer" className="navCta">Join early access</a>
+          <div className="navActions">
+            <a href={tallyUrl} target="_blank" rel="noreferrer" className="navCta">Join early access</a>
+            <a href="https://unified-flow-xi.vercel.app/" target="_blank" rel="noreferrer" className="navCta launchCta">Launch App</a>
+          </div>
 
           <button className="menuButton" onClick={() => setMobileOpen(value => !value)} aria-label="Toggle menu">
             <span />
@@ -85,6 +88,7 @@ export default function Home() {
             <a onClick={() => setMobileOpen(false)} href="#solution">Solution</a>
             <a onClick={() => setMobileOpen(false)} href="#features">Features</a>
             <a onClick={() => setMobileOpen(false)} href={xUrl} target="_blank" rel="noreferrer">X / Twitter</a>
+            <a onClick={() => setMobileOpen(false)} href="https://unified-flow-xi.vercel.app/" target="_blank" rel="noreferrer">Launch App</a>
             <a onClick={() => setMobileOpen(false)} href={tallyUrl} target="_blank" rel="noreferrer" className="mobileCta">Join early access</a>
           </div>
         )}
